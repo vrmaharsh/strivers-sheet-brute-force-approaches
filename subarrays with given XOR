@@ -1,0 +1,13 @@
+int count=0;
+for(int i=0:<n;i++){
+for(int j=i:<n;j++){
+int xorr=0;
+for(int k=i;k<=j;k++){
+xorr=xorr^arr[i];
+if(xorr==B){
+count++;
+}
+}
+}
+}
+return count;
